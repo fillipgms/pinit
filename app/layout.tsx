@@ -9,7 +9,6 @@ const pixelify = Pixelify_Sans({
 export const metadata: Metadata = {
     title: "Pinit",
     description: "Gerencie suas músicas favoritas. Crie listas e até mesmo de destaque às suas SUPER favoritas!",
-,
 };
 
 export default function RootLayout({
