@@ -1,19 +1,18 @@
-# Pinit - Gerenciador de Tarefas Retro
+# Lista de Músicas Favoritas
 
-Um aplicativo de gerenciamento de tarefas com estética retro, construído com Next.js e TypeScript. Organize suas tarefas de forma simples e elegante com uma interface que remete aos computadores clássicos.
-
-![Pinit Screenshot](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Pinit+Todo+App)
+Um aplicativo para organizar suas músicas favoritas com estética retro, construído com Next.js e TypeScript. Crie listas personalizadas, marque suas músicas favoritas e compartilhe com amigos.
 
 ## Funcionalidades
 
--   **Adicionar tarefas** - Crie novas tarefas facilmente
--   **Editar tarefas** - Clique no texto para editar
--   **Excluir tarefas** - Remova tarefas desnecessárias
--   **Filtros inteligentes** - Visualize todas, ativas ou concluídas
--   **Persistência local** - Suas tarefas ficam salvas no navegador
--   **Barra de progresso** - Acompanhe seu progresso visualmente
--   **Design retro** - Interface inspirada nos computadores clássicos
--   **Responsivo** - Funciona em desktop e mobile
+-   **Adicionar músicas** - Crie suas listas com título, artista e capa
+-   **Editar músicas** - Clique no texto para editar informações
+-   **Favoritar músicas** - Marque suas músicas preferidas
+-   **Múltiplas listas** - Organize músicas em diferentes coleções
+-   **Filtros inteligentes** - Visualize todas, favoritas ou outras músicas
+-   **Compartilhamento** - Compartilhe suas listas com códigos únicos
+-   **Importação** - Importe listas de outros usuários
+-   **Persistência local** - Suas listas ficam salvas no navegador
+-   **Design responsivo** - Funciona perfeitamente em desktop e mobile
 
 ## Como executar
 
@@ -27,8 +26,8 @@ Um aplicativo de gerenciamento de tarefas com estética retro, construído com N
 1. **Clone o repositório**
 
     ```bash
-    git clone https://github.com/seu-usuario/pinit.git
-    cd pinit
+    git clone https://github.com/seu-usuario/lista-musicas.git
+    cd lista-musicas
     ```
 
 2. **Instale as dependências**
@@ -65,35 +64,37 @@ Um aplicativo de gerenciamento de tarefas com estética retro, construído com N
 ## Estrutura do projeto
 
 ```
-pinit/
+lista-musicas/
 ├── app/
 │   ├── globals.css      # Estilos globais
 │   ├── layout.tsx       # Layout principal
 │   └── page.tsx         # Página principal
 ├── components/
-│   └── Task.tsx         # Componente de tarefa
+│   └── Music.tsx        # Componente de música
 ├── public/              # Arquivos estáticos
 └── package.json         # Dependências e scripts
 ```
 
 ## Como usar
 
-1. **Adicionar tarefa**: Digite no campo de texto e pressione "ADICIONAR"
-2. **Marcar como concluída**: Clique na caixa de seleção
-3. **Editar tarefa**: Clique no texto da tarefa ou no botão "EDITAR"
-4. **Excluir tarefa**: Clique no botão "EXCLUIR"
-5. **Filtrar tarefas**: Use os botões "TODAS", "A FAZER" ou "CONCLUÍDAS"
-6. **Limpar concluídas**: Use o botão "LIMPAR" na seção de progresso
+1. **Adicionar música**: Preencha título, artista e URL da capa (opcional)
+2. **Favoritar música**: Clique no coração ao lado da música
+3. **Editar música**: Clique no texto da música ou no menu de três pontos
+4. **Excluir música**: Use o menu de três pontos e selecione "Excluir"
+5. **Criar nova lista**: Use o botão "GERENCIAR" para criar listas
+6. **Filtrar músicas**: Use os botões "TODAS", "FAVORITAS" ou "OUTRAS"
+7. **Compartilhar lista**: Use o botão "COMPARTILHAR" para gerar código
+8. **Importar lista**: Use o botão "IMPORTAR" com código de compartilhamento
 
 ## Design
 
-O Pinit utiliza uma estética retro inspirada nos computadores clássicos dos anos 80/90, com:
+O aplicativo utiliza uma estética retro inspirada nos computadores clássicos, com:
 
--   Gradientes em tons de azul e ciano
+-   Gradientes em tons de roxo e rosa
 -   Bordas e sombras características
 -   Tipografia monospace
 -   Botões com aparência de interface antiga
--   Grid de fundo sutil
+-   Layout responsivo otimizado para mobile
 
 ## Scripts disponíveis
 
@@ -103,29 +104,24 @@ npm run build    # Gera build de produção
 npm run start    # Executa build de produção
 ```
 
-## 🤝 Contribuindo
+## Contribuindo
 
 1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
+2. Crie uma branch para sua feature (`git checkout -b feature/NovaFuncionalidade`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
+4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
 5. Abra um Pull Request
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👨‍💻 Autor
+## Autor
 
 **Seu Nome**
 
 -   GitHub: [@seu-usuario](https://github.com/seu-usuario)
 
-## 🙏 Agradecimentos
-
--   Inspirado na estética retro dos computadores clássicos
--   "A jornada de mil milhas começa com um único passo." — Lao Tzu
-
 ---
 
-⭐ Se este projeto te ajudou, considere dar uma estrela no repositório!
+Se este projeto te ajudou, considere dar uma estrela no repositório!
