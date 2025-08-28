@@ -8,7 +8,8 @@ const pixelify = Pixelify_Sans({
 
 export const metadata: Metadata = {
     title: "Pinit",
-    description: "Um gerenciador de tarefas com estética retro pixelada",
+    description: "Gerencie suas músicas favoritas. Crie listas e até mesmo de destaque às suas SUPER favoritas!",
+,
 };
 
 export default function RootLayout({
